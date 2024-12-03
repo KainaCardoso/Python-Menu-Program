@@ -10,7 +10,7 @@ This Python script provides a simple command-line interface (CLI) to perform var
 - Backup Remote File**: Backs up a specified file on the remote device.
 - Save Web Page**: Downloads and saves the content of a specified web page to the local desktop.
 
-** Requirements**
+**Requirements**
 
 - Python 3.x
 - netmiko library (for SSH connections)
@@ -24,16 +24,16 @@ pip install netmiko requests
 
 1. Clone this repository to your local machine:
 
-use this command: git clone https://github.com/yourusername/Menu-Assignment-011.git
+  use this command: git clone https://github.com/yourusername/Menu-Assignment-011.git
 
 2. Navigate to the project directory:
 
-cd Menu-Assignment-011
+  cd Menu-Assignment-011
 
 3. Open the script in your preferred text editor and modify the REMOTE_DEVICE settings with your remote device details.
 
 4. Run the script:
-python Menu_Assignment_011.py
+  python Menu_Assignment_011.py
 
 5. Follow the on-screen menu to execute the desired option.
 
