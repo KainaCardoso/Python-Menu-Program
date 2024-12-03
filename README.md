@@ -24,7 +24,7 @@ pip install netmiko requests
 
 1. Clone this repository to your local machine:
 
-    use this command: git clone https://github.com/yourusername/Menu-Assignment-011.git
+    use this command: git clone https://github.com/KainaCardoso/Menu-Assignment-011.git
 
 2. Navigate to the project directory:
 
