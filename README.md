@@ -4,11 +4,11 @@ This Python script provides a simple command-line interface (CLI) to perform var
 
 **Features**
 
-- Show Local Date and Time**: Displays the current date and time on the local computer.
+- Show Local Date and Time: Displays the current date and time on the local computer.
 - Show Local IP Address: Retrieves and displays the local IP address.
-- Show Remote Home Directory**: Connects to a remote Linux device and lists the contents of the home directory.
-- Backup Remote File**: Backs up a specified file on the remote device.
-- Save Web Page**: Downloads and saves the content of a specified web page to the local desktop.
+- Show Remote Home Directory: Connects to a remote Linux device and lists the contents of the home directory.
+- Backup Remote File: Backs up a specified file on the remote device.
+- Save Web Page*: Downloads and saves the content of a specified web page to the local desktop.
 
 **Requirements**
 
@@ -24,11 +24,11 @@ pip install netmiko requests
 
 1. Clone this repository to your local machine:
 
-  use this command: git clone https://github.com/yourusername/Menu-Assignment-011.git
+    use this command: git clone https://github.com/yourusername/Menu-Assignment-011.git
 
 2. Navigate to the project directory:
 
-  cd Menu-Assignment-011
+    cd Menu-Assignment-011
 
 3. Open the script in your preferred text editor and modify the REMOTE_DEVICE settings with your remote device details.
 
