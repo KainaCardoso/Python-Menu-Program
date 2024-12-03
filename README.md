@@ -41,9 +41,9 @@ pip install netmiko requests
 **Example Menu**
 
 Menu:
-1 - Show date and time (local computer)
-2 - Show IP address (local computer)
-3 - Show Remote home directory listing
-4 - Backup remote file
-5 - Save web page
-Q - Quit
+1. Show date and time (local computer)
+2. Show IP address (local computer)
+3. Show Remote home directory listing
+4. Backup remote file
+5. Save web page
+6. Quit
