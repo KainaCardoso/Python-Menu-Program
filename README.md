@@ -1,49 +1,31 @@
-# Python-Menu-Program
+# Python Menu Program (CLI)
 
-This Python script provides a simple command-line interface (CLI) to perform various operations, such as showing the local date and time, displaying the local IP address, connecting to a remote device, backing up files, and saving web pages.
+A simple Python command-line menu application built for university coursework to practise programming fundamentals and basic automation tasks.
 
-**Features**
+## Features
+- Display date and time
+- Show local IP/network information
+- Run basic remote tasks (via SSH) using Netmiko (optional)
+- Create a simple backup of selected files/folders (local)
+- Fetch and save a webpage to a file (Requests)
 
-- Show Local Date and Time: Displays the current date and time on the local computer.
-- Show Local IP Address: Retrieves and displays the local IP address.
-- Show Remote Home Directory: Connects to a remote Linux device and lists the contents of the home directory.
-- Backup Remote File: Backs up a specified file on the remote device.
-- Save Web Page*: Downloads and saves the content of a specified web page to the local desktop.
+## Project Structure
 
-**Requirements**
-
-- Python 3.x
-- netmiko library (for SSH connections)
-- requests library (for HTTP requests)
-
-You can install the required libraries using pip:
-
-pip install netmiko requests
-
-**Usage**
-
-1. Clone this repository to your local machine:
-
-    use this command: git clone https://github.com/KainaCardoso/Python-Menu-Program.git
-
-2. Navigate to the project directory:
-
-    cd Menu-Assignment-011
-
-3. Open the script in your preferred text editor and modify the REMOTE_DEVICE settings with your remote device details.
-
-4. Run the script:
-  python Menu_Assignment_011.py
-
-5. Follow the on-screen menu to execute the desired option.
+Python-Menu-Program/
+├─ src/
+│ └─ menu_program.py
+├─ README.md
+├─ requirements.txt
+└─ .gitignore
 
 
-**Example Menu**
+## Quickstart
+Clone the repository and install dependencies:
 
-Menu:
-1. Show date and time (local computer)
-2. Show IP address (local computer)
-3. Show Remote home directory listing
-4. Backup remote file
-5. Save web page
-6. Quit
+```bash
+git clone https://github.com/KainaCardoso/Python-Menu-Program.git
+cd Python-Menu-Program
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python3 src/menu_program.py
